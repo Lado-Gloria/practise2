@@ -1,0 +1,119 @@
+.general{
+    border: solid palevioletred;
+    border-width: 30px;
+    height: 600px;
+    width: 800px;
+    border-bottom: none;
+    
+}
+
+.first{
+    display: flex; 
+    font-size: smaller; 
+
+}
+#art{
+    margin-left: 20%;
+    font-weight: bold;
+}
+#bog{
+    margin-left: 20%;
+}
+#log{
+    border-radius: 30%;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+.image-container{
+    height: 400px;
+    margin-right: 20px;
+    border-radius: 5%;
+    position: relative;
+    bottom: 180px;
+     width: 40%;
+    float: right;
+}
+#collect{
+    font-weight: bold;
+ }
+ #head{
+    width: 50%;
+    margin-right: 50%;
+ }
+ #girl1{
+    height: 40px;
+    border-radius: 80%;
+    width: 5%;
+   
+ }
+ 
+
+ 
+ #girl3{
+    height: 40px;
+    border-radius: 60%;
+    width: 5%;
+    position: relative;
+    right: 4%;
+  
+    
+ }
+ #girl4{
+    height: 40px;
+    border-radius: 60%;
+    width: 5%;
+    border: solid blueviolet;
+    position: relative;
+    right: 2%;
+
+ }
+
+ .join{
+    margin-left: 30%;
+    position: relative;
+    bottom: 10%;
+    font-size: small;
+    font-weight: bold;
+ }
+ #get{
+    color: black;
+    background-color: blueviolet;
+    border-radius: 20px;
+    margin-bottom: 20px;
+ }
+ #img{
+    border-radius: 20px;
+    width: 70px;
+    height: 80px;
+    margin-top: 2% ;
+
+ }
+ .online{
+    
+    position: relative;
+    bottom: 80%;
+    padding-left: 20%;
+    font-size: small;
+
+
+ }
+ .comph{
+    
+    width: 50%;
+    height: 20%;
+    background-color:burlywood;
+    border-radius: 10%;
+    position: relative;
+
+ }
+
+.comph:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 80px solid white;
+    border-left: 80px solid burlywood;
+    width: 0;
+}
